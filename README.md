@@ -5,6 +5,7 @@ Investigating a Node SEA app that uses node-raylib for making raylib games in ja
 ## How to use/test?
 
 **Added Note:** This has all been on Windows 11. 
+
 My latest test, while making this, was with Node version 24.6.0. However I've also tried LTS v22, and LTS v20 with the same behavior described here.
 
 As mentioned above, there's two versions of the node-raylib DLL supplied and setup in this project. The original is the one found in node-raylib's releases, which is based on the c++ raylib version 4.5.  The fresh_compile version is from node-raylib's master branch compiled by me, which is based on the c++ raylib version 5.5. Both versions have been fully set up to test running as the script directly, as well as being bundled into a SEA to be launched.
@@ -49,3 +50,4 @@ To run the bundle, run `./dist/fresh_compile.exe`.
 
 
 The behavior I've been getting here is different from the original. This version silently crashes without any error messages, or trace that I can find (except the last program status does show as failed, but I couldn't find an exit code using powershell).
+

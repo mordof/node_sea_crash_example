@@ -1,0 +1,4 @@
+{ 
+    "main": "src/fresh_compile.js", 
+    "output": "dist/fresh_compile.blob" 
+}

@@ -1,0 +1,4 @@
+{ 
+    "main": "src/original.js", 
+    "output": "dist/original.blob" 
+}

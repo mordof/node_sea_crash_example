@@ -1,0 +1,18 @@
+{
+  "name": "issue_proj_for_sea_dll",
+  "version": "1.0.0",
+  "description": "Investigating why the node-raylib DLL module fails to work in a SEA bundle",
+  "license": "ISC",
+  "author": "Mike Winger (mike.winger87@gmail.com)",
+  "type": "commonjs",
+  "main": "src/original.js",
+  "scripts": {
+    "script_original": "node ./src/original.js",
+    "script_fresh_compile": "node ./src/fresh_compile.js",
+    "build_original": "node ./build_original.js",
+    "build_fresh_compile": "node ./build_fresh_compile.js"
+  },
+  "devDependencies": {
+    "postject": "^1.0.0-alpha.6"
+  }
+}
